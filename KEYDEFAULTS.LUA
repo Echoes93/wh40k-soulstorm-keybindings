@@ -24,12 +24,12 @@
 		----------------------------------------------------------------------------------------------------------------
 		escape						= "Escape",
 		accept						= "Enter",
-		commandqueue				= "Space",
+		commandqueue				= "Shift",
 		systemmenu					= "F10",
 		objectivesmenu				= "F11",
 		alliesmenu					= "F12",
 		chatmenu					= "Enter",
-		chathistory					= "Shift+H",
+		chathistory					= "Space+H",
 		pause						= "Pause",
 		selectionfocus          	= "Apostrophe",
 		
@@ -81,7 +81,7 @@
 		military_cycle				= "Control+W",
 		builder_cycle				= "Control+E",
 		research_cycle				= "Control+R",
-		cycle_event_cue				= "Shift",
+		cycle_event_cue				= "Space",
 		stance_hold					= "F1",
 		stance_stand_ground			= "F2",
 		stance_burn					= "F3",
@@ -100,9 +100,9 @@
 		----------------------------------------------------------------------------------------------------------------
 		focus_primary_selection 	= "Control+Tab",
 		next_primary_selection  	= "Tab",
-		prev_primary_selection  	= "Space+Tab",
+		prev_primary_selection  	= "Shift+Tab",
 		remove_selection_modifier  	= "Control",		-- checked with mouse click (removes clicked items from selection) -- note: must only be one key
-		crop_selection_modifier  	= "Space",		-- checked with mouse click (selects all units of the same type) -- note: must only be one key
+		crop_selection_modifier  	= "Shift",		-- checked with mouse click (selects all units of the same type) -- note: must only be one key
 			
 		----------------------------------------------------------------------------------------------------------------
 		-- DATA CONTEXT HOTKEYS
@@ -317,10 +317,10 @@
 		tau_stealth_warrior						=	"W",
 		tau_vespid_auxiliary					=	"E",
 		tau_commander							=	"A",
-		tau_kroot_warrior						=	"Q",
-		tau_fire_warrior						=	"W",
-		tau_fire_warrior_shasui					=	"W",
+		tau_fire_warrior						=	"Q",
+		tau_fire_warrior_shasui					=	"Q",
 		tau_fire_warrior_shield_drone			=	"E",
+		tau_kroot_warrior						=	"W",
 		tau_pathfinder							=	"E",
 		tau_broadside_battlesuit				=	"R",
 		tau_crisis_suit							=	"S",
@@ -384,11 +384,11 @@
 	
 		
 		-- TROOPERS FOR DARK ELDAR
-		dark_eldar_slave					= 	"V",
-		dark_eldar_mandrake					=	"M",
+		dark_eldar_slave					= 	"Q",
+		dark_eldar_mandrake					=	"W",
 		dark_eldar_archon					=	"A",
 		dark_eldar_incubus					=	"I",
-		dark_eldar_warrior					=	"W",
+		dark_eldar_warrior					=	"Q",
 		dark_eldar_hellion					=	"H",
 		dark_eldar_scourge					=	"G",
 		dark_eldar_warp_beast					=	"B",
@@ -405,26 +405,26 @@
 	
 	
 		-- TROOPERS FOR SISTERS
-		sisters_servitor					=	"S",
-		sisters_battle_sister					=	"B",
-		sisters_seraphim					=	"S",
-		sisters_repentia					=	"R",
-		sisters_celestian					=	"E",
-		sisters_missionary					=	"M",
-		sisters_assassin					=	"A",
-		sisters_canoness					=	"C",
-		sisters_confessor					=	"C",
+		sisters_servitor					=	"Q",
+		sisters_missionary					=	"W",
+		sisters_confessor					=	"R",
+		sisters_canoness					=	"A",
+		sisters_battle_sister				=	"Q",
+		sisters_seraphim					=	"W",
+		sisters_repentia					=	"E",
+		sisters_celestian					=	"R",
+		sisters_assassin					=	"S",
 		sisters_celestian_imagifer				=	"I",
 		sisters_repentia_mistress				=	"M",
 		sisters_veteran_superior				=	"E",
-		sisters_veteran_superior_celestian			=	"E",
-		sisters_veteran_superior_seraphim			=	"E",
-		sisters_living_saint					=	"S",
+		sisters_veteran_superior_celestian		=	"E",
+		sisters_veteran_superior_seraphim		=	"E",
 		sisters_exorcist_tank					=	"E",
 		sisters_immolator_tank					=	"I",
 		sisters_penitent_engine					=	"P",
 		sisters_rhino						=	"R",
 		sisters_lightning					=	"L",
+		sisters_living_saint				=	"Z",
 	
 		-- WEAPON UPGRADES FOR MARINES
 		marine_assault_cannon	=	"C",

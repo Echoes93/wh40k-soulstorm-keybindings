@@ -24,12 +24,12 @@
 		----------------------------------------------------------------------------------------------------------------
 		escape						= "Escape",
 		accept						= "Enter",
-		commandqueue				= "Space",
+		commandqueue				= "Shift",
 		systemmenu					= "F10",
 		objectivesmenu				= "F11",
 		alliesmenu					= "F12",
 		chatmenu					= "Enter",
-		chathistory					= "Shift+H",
+		chathistory					= "Space+H",
 		pause						= "Pause",
 		selectionfocus          	= "Apostrophe",
 		
@@ -81,7 +81,7 @@
 		military_cycle				= "Control+W",
 		builder_cycle				= "Control+E",
 		research_cycle				= "Control+R",
-		cycle_event_cue				= "Shift",
+		cycle_event_cue				= "Space",
 		stance_hold					= "F1",
 		stance_stand_ground			= "F2",
 		stance_burn					= "F3",
@@ -100,9 +100,9 @@
 		----------------------------------------------------------------------------------------------------------------
 		focus_primary_selection 	= "Control+Tab",
 		next_primary_selection  	= "Tab",
-		prev_primary_selection  	= "Space+Tab",
+		prev_primary_selection  	= "Shift+Tab",
 		remove_selection_modifier  	= "Control",		-- checked with mouse click (removes clicked items from selection) -- note: must only be one key
-		crop_selection_modifier  	= "Space",		-- checked with mouse click (selects all units of the same type) -- note: must only be one key
+		crop_selection_modifier  	= "Shift",		-- checked with mouse click (selects all units of the same type) -- note: must only be one key
 			
 		----------------------------------------------------------------------------------------------------------------
 		-- DATA CONTEXT HOTKEYS
@@ -317,10 +317,10 @@
 		tau_stealth_warrior						=	"W",
 		tau_vespid_auxiliary					=	"E",
 		tau_commander							=	"A",
-		tau_kroot_warrior						=	"Q",
-		tau_fire_warrior						=	"W",
-		tau_fire_warrior_shasui					=	"W",
+		tau_fire_warrior						=	"Q",
+		tau_fire_warrior_shasui					=	"Q",
 		tau_fire_warrior_shield_drone			=	"E",
+		tau_kroot_warrior						=	"W",
 		tau_pathfinder							=	"E",
 		tau_broadside_battlesuit				=	"R",
 		tau_crisis_suit							=	"S",
